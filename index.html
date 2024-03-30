@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>origprototype</title>
-  <link href="style.css">
+  <!-- Swiper css -->
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
@@ -76,11 +78,90 @@
     </section>
   </main>
 <!--endees ehleed enhbayr editlew-->
-  <section class="artists">
-      <div class="artist-item">
-        <h1>Hi</h1>
+<section class="artist">
+<hr color="black" size="2" class="artist-line" style="opacity: 0.15;">
+<div class="captions" style="display: flex; justify-content: space-between;">
+  <h2 class="artist-caption" style="margin: 0;">Уран бүтээлчид</h2>
+  <a href="artist.html" style="margin: 0;">Бүгдийг үзэх ></a>
+</div>
+  <!-- Swiper -->
+  <div class="swiper-body">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="artists-item-1">
+          <div class="description">
+              <div class="icon">
+                  <img src="/images/type-vector.png" class="icon-size">modern art, fantastical art
+              </div>
+              <div class="artist-name">
+                  <p>Jantsankhorol <b><span style="text-transform:uppercase;">erdenebayar</span></b></p>
+              </div>
+              <button class="artist-button">Дэлгэрэнгүй ></button>
+          </div>
       </div>
-  </section>
+      </div>
+      <div class="swiper-slide">
+        <div class="artists-item-2">
+          <div class="description">
+              <div class="icon">
+                  <img src="/images/type-vector.png" class="icon-size">modern art, fantastical art
+              </div>
+              <div class="artist-name">
+                  <p>Jantsankhorol <b><span style="text-transform:uppercase;">erdenebayar</span></b></p>
+              </div>
+              <button class="artist-button">Дэлгэрэнгүй ></button>
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide"><div class="artists-item-3">
+        <div class="description">
+            <div class="icon">
+                <img src="/images/type-vector.png" class="icon-size">modern art, fantastical art
+            </div>
+            <div class="artist-name">
+                <p>Jantsankhorol <b><span style="text-transform:uppercase;">erdenebayar</span></b></p>
+            </div>
+            <button class="artist-button">Дэлгэрэнгүй ></button>
+        </div>
+    </div></div>
+      <div class="swiper-slide">
+        <div class="artists-item-4">
+          <div class="description">
+              <div class="icon">
+                  <img src="/images/type-vector.png" class="icon-size">modern art, fantastical art
+              </div>
+              <div class="artist-name">
+                  <p>Jantsankhorol <b><span style="text-transform:uppercase;">erdenebayar</span></b></p>
+              </div>
+              <button class="artist-button">Дэлгэрэнгүй ></button>
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+  </div><div class="swiper-pagination"></div>
+</div>
+</section>
+<section class="news">
+  <hr color="black" size="2" class="artist-line" style="position: relative; margin-top: 50px; opacity: 0.15;">
+  <div class="captions" style="display: flex; justify-content: space-between;">
+    <h2 class="artist-caption" style="margin: 0;">Мэдээ</h2>
+    <a href="news.html" style="margin: 0;">Бүгдийг үзэх ></a>
+  </div>
+  <div class="grid-container">
+  <div class="item2">
+    <!-- <h4 class="news-type"><b><span style="text-transform:uppercase;">Онцлох</span></b></h4>
+    <p class="news-article">“Стрийт Фото” гэрэл зургийн үзэсгэлэн нээлтээ хийж, амжилттай үргэлжилж байна.</p> -->
+  </div>
+  <div class="item3">Main</div>  
+  <div class="item5">Footer</div>
+</div>
+</section>
 <!-- ene hurtel bichiw enhbayr -->
   <footer class="footer">
     <section class="footer-section">
@@ -95,4 +176,9 @@
     </section>
   </footer>
 </body>
+
+<!-- Swiper Js -->
+<script src="swiper-bundle.min.js"></script>
+<!-- js uud duudaw -->
+<script src="main-js.js"></script>
 </html>

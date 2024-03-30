@@ -1,4 +1,140 @@
-.artist{
-    margin: 0%;
-    font-size: 200px;
+*{
+    font-family: Poppins, sans-serif;
+}
+/* artist hesgyn css */
+.artist-line{
+    margin-bottom: 30px;
+}
+.captions{
+    margin-bottom: 40px;
+    align-items: center;
+}
+.artists{
+    padding: 0 30%;
+}
+.artists-items {
+    vertical-align: top;
+  }
+.artists-item-1{
+    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent), url('images/artist-1.jpg');
+}
+.artists-item-2{
+    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent), url('images/artist-2.jpg');
+}
+.artists-item-3{
+    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent), url('images/artist-3.jpg');
+}
+.artists-item-4{
+    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent), url('images/artist-1.jpg');
+}
+.artists-item-5{
+    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent), url('images/artist-2.jpg');
+}
+.artists-item-{
+    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent), url('images/artist-2.jpg');
+}
+.artists-item-1,
+.artists-item-2,
+.artists-item-3,
+.artists-item-4,
+.artists-item-5,
+.artists-item-6{
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+    height: 551px;
+    width: 100%;
+}
+.artist-button{
+    padding: 15px 18px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 10px;
+}
+.description {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.artist-name, .icon {
+    display: block;
+    text-align: center;
+}
+.icon-size {
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+}
+/* swiper */
+.swiper-body{
+      margin: 0;
+      padding: 0;
+      position: relative;
+      height: 551px;
+    }
+
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+  }
+
+  .swiper-slide img .icon-size {
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+}
+.swiper-pagination{
+    position: relative;
+    margin-top: 20px;
+}
+/* news hesgyn css */
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu main'
+    'menu footer';
+  gap: 10px;
+}
+
+.grid-container > div {
+  padding: 18% 0;
+  font-size: 30px;
+  border-radius: 17px;
+  background-size: cover;
+  color: white;
+  font-size: 18px;
+
+}
+.item2 { 
+    grid-area: menu; 
+    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent), url('images/news-1.jpg');
+  }
+  
+  .item3 { 
+    grid-area: main; 
+    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent),url('images/news-2.jpg');
+  }
+  
+  .item5 { 
+    grid-area: footer; 
+    background-image: linear-gradient(to top, rgba(0.2, 0.25, 0.3), transparent),url('images/news-3.jpg');
+  }
+  .news-article {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    min-height: 15%;
 }
