@@ -138,6 +138,44 @@
     grid-template-columns: 2fr 1fr;
     min-height: 15%;
 }
-ul {
-    list-style-type: none;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color:#222121;
+  color:white ;
+  height: 150px;
+}
+.footer-section {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box; 
+  text-align: left; 
+  font-size:0.8em;
+  justify-content: center; 
+  margin:10px;
+  
+}
+.footer-section ul {
+  list-style: none; 
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px; 
+}
+.footer-section ul li a {
+  text-decoration: none;
+  color: #CCCCCC;
+  font-size:0.6em;
+}
+.footer-copy {
+  display: flex;
+  height: 50px;
+  background-color:black;
+  color:#AFAFAF;
+  justify-content: center;
+  font-size:0.8em;
+  align-items: center;
 }
