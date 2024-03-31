@@ -148,33 +148,3 @@
     grid-template-columns: 2fr 1fr;
     min-height: 15%;
 }
-/* recommend hseg */
-.rec-swiper-body{
-    margin: 0;
-    padding: 0;
-    position: relative;
-    height: 100%;
-    width: 100%;
-  }
-
-
-.rec-swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background-size: cover;
-  align-items: center;
-  border-radius: 7px;
-}
-
-.rec-swiper-slide img .icon-size {
-  width: 10px;
-  height: 10px;
-  margin-right: 6px;
-}
-.rec-swiper-pagination{
-  position: relative;
-  margin-top: 20px;
-}
-.recommend-title{
-    position: inherit;
-}
