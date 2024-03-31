@@ -7,3 +7,12 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
+  var swiper = new Swiper(".mineSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+      el: ".rec-swiper-pagination",
+      clickable: true,
+    },
+  });
