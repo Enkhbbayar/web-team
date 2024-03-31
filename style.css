@@ -138,3 +138,6 @@
     grid-template-columns: 2fr 1fr;
     min-height: 15%;
 }
+ul {
+    list-style-type: none;
+}
